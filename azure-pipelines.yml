@@ -13,7 +13,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    sudo npm install
     npm run build
-    npm test
+    sudo apt-get update
   displayName: 'npm install and build and test'
